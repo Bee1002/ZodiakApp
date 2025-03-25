@@ -6,33 +6,34 @@
     android:padding="8dp">
     <ImageView
         android:id="@+id/iconImageView"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:src="@drawable/aries_icon"/>
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="80dp"
-        android:orientation="vertical"
         android:layout_weight="1"
-        android:layout_marginStar="8dp"
+        android:orientation="vertical"
+        android:layout_marginStart="8dp"
         android:layout_gravity="center_vertical">
 
-    <TextureView
-        android:id="@+id/datesTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Fechas del oroscopo"
-        android:textSize="24sp"
-        android:textStyle="bold"/>
 
-
-    <TextureView
+    <TextView
         android:id="@+id/nameTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Fechas del oroscopo"
+        android:text="Aries"
         android:textSize="16sp"
         />
 
+        <TextView
+            android:id="@+id/datesTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fechas del horoscopo"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
 
 </LinearLayout>

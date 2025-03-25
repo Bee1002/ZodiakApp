@@ -13,7 +13,7 @@ class HoroscopeAdapter(val items: List<Horoscope>) : Adapter <HoroscopeViewHolde
 
     //Cual es la vista de las celdas
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HoroscopeViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_horoscope. parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_horoscope, parent, false)
         return HoroscopeViewHolder(view)
     }
 
