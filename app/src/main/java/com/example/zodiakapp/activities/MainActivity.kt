@@ -1,6 +1,7 @@
 package com.example.zodiakapp.activities
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -88,9 +89,13 @@ class MainActivity : AppCompatActivity() {
         }
         recyclerView = findViewById(R.id.recyclerView)
 
-        val adapter = HoroscopeAdapter(horoscopeList)
+        val adapter = HoroscopeAdapter(horoscopeList, {
+            Log.i ("Click", "He hecho click en un horoscopo")
+        })
         recyclerView.adapter = adapter
         recyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 
     }
+
+
 }
