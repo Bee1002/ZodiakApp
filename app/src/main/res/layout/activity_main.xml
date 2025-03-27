@@ -6,10 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".activities.MainActivity">
 <androidx.recyclerview.widget.RecyclerView
     android:id="@+id/recyclerView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+        android:layout_constrainButtom_toButtonOf="parent" />
+        android:layout_constrainEnd_toEndOf="parent" />
+        android:layout_constrainStar_toStarOf="parent" />
+        android:layout_constrainTop_toTopOf="parent" />
+        android:listenem="@layout/item_horoscope" />
 
 </LinearLayout>
