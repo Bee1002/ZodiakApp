@@ -1,4 +1,6 @@
-package com.example.zodiakapp.data
+package com.example.zodiacapp.data
+
+import com.example.zodiacapp.R
 
 class Horoscope (
     val id: String,
@@ -26,7 +28,7 @@ class Horoscope (
         fun findById(id: String): Horoscope {
             return horoscopeList.first { it.id == id }
 
-    )
+
 
 }
     }

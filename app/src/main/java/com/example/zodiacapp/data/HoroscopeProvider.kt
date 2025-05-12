@@ -1,12 +1,11 @@
-package com.example.zodiakapp.data
+package com.example.zodiacapp.data
 
-import com.example.zodiakapp.R
+import com.example.zodiacapp.R
 
 class HoroscopeProvider {
+
+
 companion object {
-
-
-
     private val horoscopeList = listOf(
         Horoscope("aries",
             R.string.horoscope_name_aries,

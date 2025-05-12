@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.zodiakapp"
+    namespace = "com.example.zodiacapp"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.zodiakapp"
+        applicationId = "com.example.zodiacapp"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

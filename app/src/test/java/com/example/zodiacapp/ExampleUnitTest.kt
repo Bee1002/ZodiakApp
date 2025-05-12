@@ -1,4 +1,4 @@
-package com.example.zodiakapp
+package com.example.zodiacapp
 
 import org.junit.Test
 
