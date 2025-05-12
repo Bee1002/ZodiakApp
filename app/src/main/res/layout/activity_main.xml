@@ -18,4 +18,5 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:listenem="@layout/item_horoscope" />
 
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ZodiakApp</string>
+    <string name="app_name">ZodiacApp</string>
 
     <string name="horoscope_name_aries">Aries</string>
     <string name="horoscope_name_taurus">Taurus</string>
